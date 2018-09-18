@@ -3,7 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Vant from 'vant'
+import './assets/js/rem'
+import './assets/js/axios'
+import 'vant/lib/vant-css/index.css'
+import './assets/css/public.css'
 
+Vue.use(Vant)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
